@@ -5,8 +5,8 @@ import './Nav.css';
 const Nav = () => {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg bg-light py-3">
-          <div className="container-fluid">
+        <nav className="navbar navbar-expand-lg navbar-light  py-3">
+          <div className="container">
             <h2>DasShop</h2>
 
             <button
