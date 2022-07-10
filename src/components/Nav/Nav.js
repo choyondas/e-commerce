@@ -4,7 +4,7 @@ import './Nav.css';
 
 const Nav = () => {
     return (
-      <div>
+      <div className="fixed-top">
         <nav className="navbar navbar-expand-lg navbar-light  py-3">
           <div className="container">
             <h2>DasShop</h2>

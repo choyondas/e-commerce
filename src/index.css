@@ -31,3 +31,20 @@ h5{
   font-size: 1rem;
   font-weight: 400;
 }
+
+button{
+  font-size: 0.8rem;
+  font-weight: 700;
+  outline:none;
+  border:none;
+  background-color:black;
+  color:white;
+  padding:11px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius:6px;
+  transition: all 0.5s ease;
+}
+button:hover{
+  background-color:coral;
+}
