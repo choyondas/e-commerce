@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Brand from '../Brand/Brand';
+import Collection from '../Featured/Collection/Collection';
 import Featured from '../Featured/Featured';
 import Gallery from '../Gallery/Gallery';
 import Nav from '../Nav/Nav';
@@ -12,7 +13,8 @@ const Home = () => {
             <Banner />
             <Brand />
             <Gallery />
-            <Featured/>
+            <Featured />
+            <Collection/>
         </div>
     );
 };
