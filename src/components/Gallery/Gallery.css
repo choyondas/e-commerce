@@ -1,0 +1,32 @@
+#new .one img{
+    width:100%;
+    height:100%;
+    position:relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#new .one{
+  border-radius: 10px;
+
+}
+#new .one .details{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    transition:0.5s ease;
+
+}
+#new .one:hover .details{
+    cursor: pointer;
+    background-color: rgba(218, 91, 91, 0.433);
+
+}
+#new .one:nth-child(n) .details{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
