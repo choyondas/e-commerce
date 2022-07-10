@@ -26,3 +26,15 @@
 
     outline: none !important;
 }
+
+#navbarSupportedContent > ul{
+  display:flex;
+  align-items:flex-end;
+  justify-content:flex-end;
+  margin-top:2rem;
+
+}
+#navbarSupportedContent > ul>li{
+ padding:8px 0;
+
+}

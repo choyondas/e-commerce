@@ -47,4 +47,5 @@ button{
 }
 button:hover{
   background-color:coral;
+  color:white;
 }
