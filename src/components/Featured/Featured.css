@@ -1,0 +1,29 @@
+.product{
+    cursor:pointer;
+    margin-bottom: 2rem;
+}
+.product img{
+    transition: all 0.5s ease;
+}
+.product:hover img{
+    opacity: 0.6;
+}
+.product .buy-btn{
+    background: coral;
+    color:white;
+    transform: translateY(20px);
+    opacity: 0;
+    transition:0.5s ease;
+}
+.product:hover .buy-btn{
+   transform: translateY(0);
+    opacity: 1;
+}
+.product .p-name h5{
+   font-size:1rem;
+   font-weight:700;
+}
+
+.star{
+    color:rgb(245, 102, 13);
+}

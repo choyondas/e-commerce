@@ -1,6 +1,7 @@
 .navbar {
   font-size: 16px;
-      background: #e3e3e3;
+      background: white;
+      box-shadow: 2px -4px 13px;
 }
 .navbar-light .navbar-nav .nav-link {
   padding: 0 20px;

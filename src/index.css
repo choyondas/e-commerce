@@ -49,3 +49,10 @@ button:hover{
   background-color:coral;
   color:white;
 }
+
+hr{
+  width:50px;
+  height:2px;
+  background-color:coral;
+  
+}
