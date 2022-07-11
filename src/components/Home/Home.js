@@ -6,6 +6,8 @@ import Collection from '../Featured/Collection/Collection';
 import Featured from '../Featured/Featured';
 import Gallery from '../Gallery/Gallery';
 import Nav from '../Nav/Nav';
+import Shoes from '../Shoes/Shoes';
+import Watches from '../Watches/Watches';
 
 const Home = () => {
     return (
@@ -16,7 +18,9 @@ const Home = () => {
             <Gallery />
             <Featured />
             <Collection />
-            <Clothes/>
+            <Clothes />
+            <Watches />
+            <Shoes/>
         </div>
     );
 };
