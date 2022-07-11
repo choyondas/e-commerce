@@ -127,12 +127,12 @@ const Footer = () => {
                 </a>
               </div>
               <div className="social mx-3">
-                <a href="">
+                <a href="www.linkedin.com">
                   <i class="fa-brands fa-linkedin-in"></i>
                 </a>
               </div>
               <div className="social">
-                <a href="">
+                <a href="www.instagram.com">
                   <i class="fa-brands fa-instagram"></i>
                 </a>
               </div>

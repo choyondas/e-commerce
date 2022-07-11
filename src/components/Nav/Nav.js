@@ -7,7 +7,9 @@ const Nav = () => {
       <div className="fixed-top">
         <nav className="navbar navbar-expand-lg navbar-light  py-3">
           <div className="container">
-            <h2>DasShop</h2>
+            <a className="navlogo" style={{color:"black", transition:'.5s ease'}} href="#">
+              <h2>DasShop</h2>
+            </a>
 
             <button
               className="navbar-toggler"
@@ -26,22 +28,22 @@ const Nav = () => {
             >
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#home">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#shop">
                     Shop
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#about">
                     About
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#contact">
                     Contact Us
                   </a>
                 </li>
