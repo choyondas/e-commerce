@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="py-5 mx-5">
           <div className="row pt-5">
             <div className="footer-one col-lg-3 col-md-6 col-12">
-              <h3>DasShop</h3>
+              <h3 className="pb-3">DasShop</h3>
               <p>
                 Find the lowest price for E Commerce Photography today! Now on
                 sale at GigaPromo
@@ -42,7 +42,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="footer-one col-lg-3 col-md-6 col-12">
+            <div className="mb-4 footer-one col-lg-3 col-md-6 col-12">
               <h5 className="pb-3">Contact Us</h5>
               <div>
                 <h6 className="text-uppercase">Address</h6>
@@ -64,7 +64,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer-one col-lg-3 col-md-6 col-12">
-              <h3 className="pt-5">Gallery</h3>
+              <h3>Gallery</h3>
               <div>
                 <img
                   width="70px"
@@ -111,16 +111,34 @@ const Footer = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="copyright mt-5 pb-5">
+          <div className="row container mx-auto">
+            <div className="col-lg-3 col-md-6 col-12">
+              <img src={pay} alt="" />
             </div>
-            <div className="copyright mt-5 pb-5">
-                <div className="row container mx-auto">
-                    <div className="col-lg-3 col-md-6 col-12">
-                        <img src={pay} alt="" />
-                    </div>
-
-                </div>
-
+            <div className="col-lg-3 col-md-6 col-12">
+              <small>copyright© das-practice 2022</small>
             </div>
+            <div className="col-lg-3 col-md-6 col-12 d-flex ">
+              <div className="social ">
+                <a target="_blank" href="www.facebook.com">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </div>
+              <div className="social mx-3">
+                <a href="">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+              <div className="social">
+                <a href="">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </footer>
     );
 };
