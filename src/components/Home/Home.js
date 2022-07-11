@@ -4,6 +4,7 @@ import Brand from '../Brand/Brand';
 import Clothes from '../Clothes/Clothes';
 import Collection from '../Featured/Collection/Collection';
 import Featured from '../Featured/Featured';
+import Footer from '../Footer/Footer';
 import Gallery from '../Gallery/Gallery';
 import Nav from '../Nav/Nav';
 import Shoes from '../Shoes/Shoes';
@@ -20,7 +21,8 @@ const Home = () => {
             <Collection />
             <Clothes />
             <Watches />
-            <Shoes/>
+            <Shoes />
+            <Footer/>
         </div>
     );
 };
