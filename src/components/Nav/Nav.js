@@ -30,27 +30,24 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#home">
+                <a className="nav-link active" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-icon">
-                  <NavLink 
-                    style={{ color: "black", textDecoration: "none" }}
-                    to="shop"
-                  >
+                <a className="nav-link" href="/shop">
+                 
                     Shop
-                  </NavLink>
+                  
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">
+                <a className="nav-link" href="/about">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">
+                <a className="nav-link" href="/contact">
                   Contact Us
                 </a>
               </li>

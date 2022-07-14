@@ -1,5 +1,5 @@
 import React from "react";
-import './Shop.css';
+import "./Shop.css";
 
 import shop1 from "../../img/featured/1.jpg";
 import shop2 from "../../img/featured/2.jpg";
@@ -21,10 +21,69 @@ import shop17 from "../../img/shop/12.jpg";
 import shop18 from "../../img/shop/13.jpg";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
+import { NavLink } from "react-router-dom";
 const Shop = () => {
   return (
     <div>
-      <Nav />
+      <div className="fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-light  py-3">
+          <div className="container">
+            <NavLink
+              className="navlogo"
+              style={{ color: "black", transition: ".5s ease" }}
+              to="/"
+            >
+              <h2>DasShop</h2>
+            </NavLink>
+
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item">
+                  <a className="nav-link " href="/">
+                    Home
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link active" href="/shop">
+                    Shop
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/about">
+                    About
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/contact">
+                    Contact Us
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+                <li className="nav-item">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
       <section id="shoes" className="my-5 pt-5 ">
         <div
           className="container mt-5 py-5 "
@@ -34,7 +93,7 @@ const Shop = () => {
             alignItems: "flex-start",
           }}
         >
-          <h3>Shoes Collection</h3>
+          <h3>Products Collection</h3>
           <hr />
           <p>Our latest shoes collection here.</p>
         </div>
